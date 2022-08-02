@@ -27,6 +27,7 @@ body {
 }
 
 .buttons button {
+    cursor: pointer;
     width: 100px;
     height: 30px;
     font-size: 16px;
@@ -36,11 +37,16 @@ body {
     font-weight: 600;
 }
 
+/*Aqui é para ajustar quando reduzir o tamanho da tela*/
+@media only screen and (max-width: 720px) {
+}
+
 .buttons button:hover {
     background-color: #fecc85;
 }
 
 .buttons a {
+    cursor: pointer;
     text-decoration: none;
     color: black;
 }
@@ -55,6 +61,7 @@ body {
 
 
 .bar li {
+    cursor:pointer;
     list-style-type: none;
     float: left;
     width: 10%;
@@ -97,12 +104,64 @@ body {
     color: #eee1ca;
 }
 
+.modal{
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
+.modal-content{
+    background-color: white;
+    padding: 16px 24px;
+    width: 80%;
+    height: 60%;
+    border-radius: 0.5rem;
+    text-align: center;
+    
+}
+.modal-content div{
+    display: flex;
+}
+.exit{
+    float: right;
+    width: 24px;
+    cursor: pointer; 
+    border-radius:1rem ;
+    text-align: center;
+    line-height: 24px;
+    background-color: lightgray;
+}
+
+.exit:hover{
+    background-color: darkgray;
+}
+.show-modal{
+    opacity:1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
 .carrossel {
     font-size: 80%;
     width: 100%;
     position: relative;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.74);
-    padding: 0px 50px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.74);
+    padding: 0px 50px;*/
     box-sizing: border-box;
     margin-top: 0px;
     display: flex;
@@ -123,16 +182,18 @@ body {
 
 .carrossel-item {
     position: absolute;
-    padding: 10%;
+    padding: 10%; 
     opacity: 0;
     transition: opacity 0.6s ease-out;
 }
 
 .carrossel-item p {
     font-size: 16px;
+    
 }
 
 .carrossel-item button {
+    cursor: pointer;
     width: 100px;
     height: 30px;
     font-size: 16px;
@@ -142,12 +203,17 @@ body {
     color: #eee1ca;
 }
 
+.img-sobre-nos{
+    float: right;
+   padding-bottom: 100px;
+}
+
 .carrossel-control {
     background-color: rgba(0, 0, 0, 0.28);
     border-radius: 50%;
     color: #fff;
     cursor: pointer;
-    display: none;
+    display:none;
     font-size: 40px;
     height: 40px;
     line-height: 35px;
@@ -174,8 +240,7 @@ body {
 
 #carrossel-1:checked~.control-1,
 #carrossel-2:checked~.control-2,
-#carrossel-3:checked~.control-3,
-#carrossel-3:checked~.control-4 {
+#carrossel-3:checked~.control-3{
     display: block;
 }
 
@@ -197,14 +262,14 @@ body {
 }
 
 .carrossel-bullet {
-    color: #fff;
+    color: #5e4040;
     cursor: pointer;
     display: block;
     font-size: 75px;
 }
 
 .carrossel-bullet:hover {
-    color: #aaaaaa;
+    color: #eee1ca;
 }
 
 #carrossel-1:checked~.control-1~.carrossel-indicators li:nth-child(1) .carrossel-bullet,
@@ -227,7 +292,7 @@ body {
 }
 
 
-.rodapé {
+.rodape {
 
     font-size: 80%;
     width: 100%;
