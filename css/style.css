@@ -23,7 +23,7 @@ body {
 
 .buttons {
     display: inline;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .buttons button {
@@ -38,7 +38,12 @@ body {
 }
 
 /*Aqui é para ajustar quando reduzir o tamanho da tela*/
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 1200px) {
+    .buttons button {
+        display: inline;
+        margin-left: 80px;
+        
+    }
 }
 
 .buttons button:hover {
@@ -84,8 +89,6 @@ body {
     background-color: #eee1ca;
     letter-spacing: 0px;
 }
-
-
 
 .bar li:after {
     content: '';
@@ -154,8 +157,8 @@ body {
 
 .carrossel {
     font-size: 80%;
-    width: 100%;
-    position: relative;
+    width: 99%;
+    position: fixed;
     background: #fff;
     border-radius: 6px;
     padding: 20px 60px 30px 40px;
@@ -181,7 +184,7 @@ body {
 }
 
 .carrossel-item {
-    position: absolute;
+    position: fixed;
     padding: 10%; 
     opacity: 0;
     transition: opacity 0.6s ease-out;
@@ -189,7 +192,6 @@ body {
 
 .carrossel-item p {
     font-size: 16px;
-    
 }
 
 .carrossel-item button {
@@ -245,19 +247,19 @@ body {
 }
 
 .carrossel-indicators {
+    position: fixed;
     list-style: none;
     margin: 0;
     padding: 0;
-    position: fixed;
-    bottom: 37%;
+    bottom: 30%;
     left: 0;
     right: 0;
     text-align: center;
-
 }
 
 .carrossel-indicators li {
     display: inline-block;
+
     margin: 0 5px;
 }
 
@@ -293,13 +295,13 @@ body {
 
 
 .rodape {
-
+    position: fixed;
     font-size: 80%;
     width: 100%;
     background-color: #1e1616;
     padding: 0px 40px;
     box-sizing: border-box;
-    margin-top: 14%;
+    margin-top: 35%;
     display: grid;
     align-items: center;
     height: 80px;
