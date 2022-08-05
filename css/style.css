@@ -458,3 +458,30 @@ body {
    }
 }
 
+/* aba sobre nós */
+
+.img-sobre {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.desc-kaliny {
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.desc-dany {
+    margin-left: 850px;
+    margin-top: -404px;
+}
+
+.seg-img-sobre {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.historia-sobre {
+    color: #5e4040;
+    text-align: left;
+    font-size: 15px;
+}
