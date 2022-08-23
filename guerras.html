@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="./js/main.js"></script>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Linha do Tempo</title>
 </head>
@@ -14,11 +15,17 @@
         <div class="logo">
             <a href="./index.html"><img src="./img/logo-WarLine.png" height="95" /></a>
         </div>
-        <div class="buttons">
-            <abbr title="Você está Aqui!"><button class="bt-guerras" style="background-color: #fecc85">Guerras</button></abbr>
-            <a href="./quiz.html"><button class="bt-quiz">Quiz</button></a>
-            <a href="./contato.html"><button class="bt-contato">Contato</button></a>
-            <a href="./sobre-nos.html"><button class="bt-sobre-nos">Sobre</button></a>
+        <div class="drop">
+            <button onclick="myFunction()" class="dropbtn">Menu ☰</button>
+            <div id="myDropdown" class="dropdown-content">
+                
+                <ul>
+                    <li><abbr title="Você está Aqui!"><a href="./guerras.html">Guerras</a></abbr></li>
+                    <li><a href="./quiz.html">Quiz</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                    <li><a href="./sobre-nos.html">Quem somos</a></li>
+                </ul>
+            </div>
         </div>
 
     </header>
@@ -42,15 +49,15 @@
                 <div class="year"></div>
                 <div class="content"></div>
             </li>
-            <li class="dot">
+            <li class="dot-act">
                 <div class="year"></div>
                 <div class="content"></div>
             </li>
-            <li class="dot">
+            <li class="dot-act">
                 <div class="year"></div>
                 <div class="content"></div>
             </li>
-            <li class="dot">
+            <li class="dot-act">
                 <div class="year"></div>
                 <div class="content"></div>
             </li>
@@ -76,10 +83,17 @@
             <h1>Guerra: xxxxxx </h1>
             <div class="conteudo">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis reprehenderit, cum magni voluptates nulla praesentium, consequatur dicta laboriosam esse fugit nisi temporibus ducimus in quibusdam harum beatae dolorum doloribus ipsa? Odio at maxime, soluta inventore ad enim tenetur eveniet necessitatibus sunt beatae facere ea explicabo ullam facilis, impedit asperiores hic.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit, nihil maiores delectus tempora ab perspiciatis placeat veritatis ut laborum nisi. Dolores recusandae ex corrupti numquam, perspiciatis sunt quos sit culpa ipsum reprehenderit fugit, accusamus qui cupiditate aliquid facilis obcaecati minima suscipit veniam quo. Perferendis sit sequi cupiditate ad ratione.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit, nihil maiores delectus tempora ab perspiciatis placeat veritatis ut laborum nisi. Dolores recusandae ex corrupti numquam, perspiciatis sunt quos sit culpa ipsum reprehenderit fugit, accusamus qui cupiditate aliquid facilis obcaecati minima suscipit veniam quo sadae eras.  <a href="#.html">Saiba mais.</a></p>
             </div>
         </div>
     </div>
+    <footer class="rodape">
+        <div class="linha"></div>
+        <span class="cont">
+            <p>&copy; 2022 - WarLine: Conteúdo Escolar</p>
+            <p class="dir">Todos os direitos reservados.</p>
+            <br>
+    </footer>
     
 </body>
 </html>

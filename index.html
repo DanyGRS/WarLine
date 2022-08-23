@@ -7,72 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="./js/main.js"></script>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>TimeLine</title>
 </head>
 
 <body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
     <header class="menu">
         <div class="logo">
             <img src="./img/logo-WarLine.png" height="95" />
         </div>
-        <div class="buttons">
-            <a href="./guerras.html"><button class="bt-guerras">Guerras</button></a>
-            <a href="./quiz.html"><button class="bt-quiz">Quiz</button></a>
-            <a href="./contato.html"><button class="bt-contato">Contato</button></a>
-            <a href="./sobre-nos.html"><button class="bt-sobre-nos">Sobre</button></a>
+        <div class="drop">
+            <button onclick="myFunction()"  class="dropbtn">Menu ☰</button>
+            <div id="myDropdown" class="dropdown-content">
+                <ul>
+                    <li><a href="./guerras.html">Guerras</a></li>
+                    <li><a href="./quiz.html">Quiz</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                    <li><a href="./sobre-nos.html">Quem somos</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
-    
-    <section class="carrossel">
+
+    <div class="carrossel" id="carr">
         <div class="carrossel-inner">
-            <input class="carrossel-open" type="radio" id="carrossel-1" name="carrossel"  checked="checked" hidden="" aria-hidden="true">
+            <input class="carrossel-open" type="radio" id="carrossel-1" name="carrossel" checked="checked" hidden=""
+                aria-hidden="true">
             <div class="carrossel-item">
                 <h1>Guerras</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit quia repellat, eligendi corporis eos dolore consectetur iusto sapiente, ipsam, quos ratione tempora incidunt perferendis repudiandae. Sequi modi quibusdam, aperiam sit sapiente aut voluptatum saepe corporis dignissimos asperiores porro culpa. Quidem fugiat porro non eaque reiciendis provident quasi ad quisquam?</p>
-                <a href="./guerras.html"><button class="bt-guerras">Acessar</button></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit quia repellat, eligendi
+                    corporis eos dolore consectetur iusto sapiente, ipsam, quos ratione tempora incidunt perferendis
+                    repudiandae. Sequi modi quibusdam, aperiam sit sapiente aut voluptatum saepe corporis dignissimos
+                    asperiores porro culpa. Quidem fugiat porro non eaque reiciendis provident quasi ad quisquam?</p>
+                <a href="./guerras.html"><button>Acessar</button></a>
             </div>
             <input class="carrossel-open" type="radio" id="carrossel-2" name="carrossel" hidden="" aria-hidden="true">
             <div class="carrossel-item">
                 <h1>Quiz</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem harum amet sunt ratione obcaecati repellat placeat aperiam. Natus ab et, minima excepturi harum itaque nulla commodi vero, reiciendis sunt minus officiis facere voluptates. Modi facilis expedita sequi nemo soluta, vel ipsa commodi accusamus a quo iste rerum ad perspiciatis blanditiis.</p>
-                <a href="./quiz.html"><button class="bt-quiz">Acessar</button></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem harum amet sunt ratione obcaecati
+                    repellat placeat aperiam. Natus ab et, minima excepturi harum itaque nulla commodi vero, reiciendis
+                    sunt minus officiis facere voluptates. Modi facilis expedita sequi nemo soluta, vel ipsa commodi
+                    accusamus a quo iste rerum ad perspiciatis blanditiis.</p>
+                <a href="./quiz.html"><button>Acessar</button></a>
             </div>
             <input class="carrossel-open" type="radio" id="carrossel-3" name="carrossel" hidden="" aria-hidden="true">
             <div class="carrossel-item">
-                <div class="carrossel-item-sobre">
-                    <h1>Sobre nós</h1>
-                    <p>Clique em <strong>Acessar</strong> para saber mais sobre a nossa história.</p>
-                    <p><i>Tudo começou quando...</i></p>
-                    <a href="./sobre-nos.html"><button class="bt-sobre-nos">Acessar</button></a>
-                </div>
+                <h1>Sobre nós</h1>
+                <p>Clique em <strong>Acessar</strong> para saber mais sobre a nossa história.</p>
+                <p>Tudo começou quando...</p>
+                <a href="./sobre-nos.html"><button>Acessar</button></a>
             </div>
-            
+
+            <div  class="er">
+                <ol class="carrossel-indicators">
+                    <li>
+                        <label for="carrossel-1" class="carrossel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carrossel-2" class="carrossel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carrossel-3" class="carrossel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+
             <label for="carrossel-3" class="carrossel-control prev control-1">‹</label>
             <label for="carrossel-3" class="carrossel-control next control-2">›</label>
             <label for="carrossel-2" class="carrossel-control next control-1">›</label>
             <label for="carrossel-2" class="carrossel-control prev control-3">‹</label>
             <label for="carrossel-1" class="carrossel-control prev control-2">‹</label>
             <label for="carrossel-1" class="carrossel-control next control-3">›</label>
-            
-         
-    
-            <ol class="carrossel-indicators">
-                <li>
-                    <label for="carrossel-1" class="carrossel-bullet">•</label>
-                </li>
-                <li>
-                    <label for="carrossel-2" class="carrossel-bullet">•</label>
-                </li>
-                <li>
-                    <label for="carrossel-3" class="carrossel-bullet">•</label>
-                </li>
-            </ol>
         </div>
-    </section>
+    </div>
     <footer class="rodape">
-        <div class="linha"></div>      
+        <div class="linha"></div>
         <span class="cont">
             <p>&copy; 2022 - WarLine: Conteúdo Escolar</p>
             <p class="dir">Todos os direitos reservados.</p>
