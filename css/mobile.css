@@ -272,4 +272,28 @@
     .tabela td{
         width:fit-content;
     }
+
+    .quiz{
+        width:280px;
+        height: 600px;
+    }
+
+    .button-grp {
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 50px;
+        display: none;
+        width: 48%;
+        position: fixed; 
+    }
+
+    .button-grp-no{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 50px;
+        width: 48%;
+        position: absolute; 
+        text-align: center;
+    }
 }

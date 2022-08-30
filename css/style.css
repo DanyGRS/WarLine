@@ -571,6 +571,10 @@ h1 {
     position: fixed;
 }
 
+.button-grp-no{
+    display:none;
+}
+
 #btn0, #btn1, #btn2, #btn3 {
 	background: #5e4040;
 	width: 220px;
