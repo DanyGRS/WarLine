@@ -314,6 +314,10 @@ h1 {
 }
 
 .carrossel-indicators {
+    
+}
+
+.er{
     position: fixed;
     list-style: none;
     margin: 0;
@@ -322,6 +326,7 @@ h1 {
     left: 0;
     right: 0;
     text-align: center;
+    top: 43%;
 }
 
 .carrossel-indicators li {
