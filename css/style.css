@@ -227,7 +227,7 @@ h1 {
 .carrossel {
     font-size: 80%;
     width: 100%;
-    position: initial;
+    position: relative;
     background: rgba(238, 225, 202, 0.8);
     border-radius: 6px;
     /*padding: 20px 60px 30px 40px;*/
@@ -318,15 +318,15 @@ h1 {
 }
 
 .er{
-    position: fixed;
+    position: absolute;
     list-style: none;
     margin: 0;
     padding: 0;
-    bottom: 30%;
     left: 0;
     right: 0;
+    top:80%;
     text-align: center;
-    top: 43%;
+
 }
 
 .carrossel-indicators li {
@@ -539,6 +539,7 @@ h1 {
 
 #cont-quiz h1{
     text-align: center;
+    margin: auto;
     color: white;
 }
 
