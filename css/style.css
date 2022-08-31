@@ -326,7 +326,7 @@ h1 {
     right: 0;
     top:80%;
     text-align: center;
-
+    z-index: 1;
 }
 
 .carrossel-indicators li {
