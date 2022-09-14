@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Linha do Tempo</title>
 </head>
-<body>
+<body onload="showTuto()">
     <header class="menu">
         <div class="logo">
             <a href="./index.html"><img src="./img/logo-WarLine.png" height="95" /></a>
@@ -20,7 +20,7 @@
             <div id="myDropdown" class="dropdown-content">
                 
                 <ul>
-                    <li><abbr title="Você está Aqui!"><a href="./guerras.html">Guerras</a></abbr></li>
+                    <li><abbr title="Você está Aqui!"><a style="color:#eee1ca; text-decoration: underline;">Guerras</a></abbr></li>
                     <li><a href="./quiz.html">Quiz</a></li>
                     <li><a href="./contato.html">Contato</a></li>
                     <li><a href="./sobre-nos.html">Quem somos</a></li>
@@ -76,7 +76,7 @@
         </ul>
     </div>
     </section>
-
+   
     <div class="modal" id="modal">
         <div class="modal-content">
             <span onclick="hideModal()" class="exit">&times;</span>
@@ -84,6 +84,17 @@
             <div class="conteudo">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis reprehenderit, cum magni voluptates nulla praesentium, consequatur dicta laboriosam esse fugit nisi temporibus ducimus in quibusdam harum beatae dolorum doloribus ipsa? Odio at maxime, soluta inventore ad enim tenetur eveniet necessitatibus sunt beatae facere ea explicabo ullam facilis, impedit asperiores hic.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit, nihil maiores delectus tempora ab perspiciatis placeat veritatis ut laborum nisi. Dolores recusandae ex corrupti numquam, perspiciatis sunt quos sit culpa ipsum reprehenderit fugit, accusamus qui cupiditate aliquid facilis obcaecati minima suscipit veniam quo sadae eras.  <a href="#.html">Saiba mais.</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="tutorial" id="tutorial">
+        <div class="tutorial-content">
+            <span onclick="hideTuto()" class="exits">&times;</span>
+            <div class="conteudo-tuto">
+                <h1>Sejam bem-vindos a nossa linha do tempo</h1>
+                <p>Nossa linha do tempo funciona assim:</p>
+           
+                <p>Cada bolinha é identificada por ano(2001-2010), para você saber qual guerra aconteceu em um determinado ano basta clicar no ano desejado </p>
             </div>
         </div>
     </div>

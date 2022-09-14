@@ -9,6 +9,17 @@ function hideModal(){
     element.classList.remove("show-modal");
 }
 
+
+function showTuto() {
+  var element = document.getElementById("tutorial");
+  element.classList.add("show-tutorial");
+}
+
+function hideTuto(){
+  var element =  document.getElementById("tutorial");
+  element.classList.remove("show-tutorial");
+}
+
 //Função do DropDown
 function myFunction() { 
   document.getElementById("myDropdown").classList.toggle("show");
@@ -30,5 +41,4 @@ window.onclick = function(event){
       
     }
   }
-  
 }

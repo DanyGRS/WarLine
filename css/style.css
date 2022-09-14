@@ -313,9 +313,7 @@ h1 {
     display: block;
 }
 
-.carrossel-indicators {
-    
-}
+
 
 .er{
     position: absolute;
@@ -600,4 +598,58 @@ h1 {
 #progress {
 	color: #2b2b2b;
 	font-size: 18px;
+}
+
+
+.tutorial{
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top:10%;
+    width: 100%;
+    height: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
+.conteudo-tuto{
+    color:white;
+    
+}
+
+.tutorial-content{
+    background-color: rgba(53, 40, 40, 0.5);
+    padding: 16px 24px;
+    width: 80%;
+    height: 60%;
+    border-radius: 0.5rem;
+    text-align: center;
+    
+}
+.tutorial-content div{
+    display: block;
+}
+.exits{
+    float: right;
+    width: 24px;
+    cursor: pointer; 
+    border-radius:1rem ;
+    text-align: center;
+    line-height: 24px;
+    background-color: lightgray;
+}
+
+.exits:hover{
+    background-color: darkgray;
+}
+.show-tutorial{
+    opacity:1;
+    visibility: visible;
+    transform: scale(1.0);
 }
