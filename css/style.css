@@ -128,7 +128,7 @@ h1 {
 .line {
     width: 100%;
     height: 100%;
-    padding-top: 250px;
+    padding-top: 190px;
     padding-bottom: 5px;
     counter-increment: step 2000;
     margin: 0 auto;
@@ -602,7 +602,7 @@ h1 {
 
 
 .tutorial{
-    position: fixed;
+    position: relative;
     padding: 0;
     left: 0;
     top:10%;
@@ -627,6 +627,7 @@ h1 {
     background-color: rgba(53, 40, 40, 0.5);
     padding: 16px 24px;
     width: 80%;
+    margin-top: 1%;
     height: 60%;
     border-radius: 0.5rem;
     text-align: center;

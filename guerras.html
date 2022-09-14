@@ -30,13 +30,26 @@
 
     </header>
 
+    <div class="tutorial" id="tutorial">
+        <div class="tutorial-content">
+            <span onclick="hideTuto()" class="exits">&times;</span>
+            <div class="conteudo-tuto">
+                <h1>Sejam bem-vindos a nossa linha do tempo</h1>
+                <p>Nossa linha do tempo funciona assim:</p>
+           
+                <p>Cada bolinha é identificada por ano(2001-2010), para você saber qual guerra aconteceu em um determinado ano basta clicar no ano desejado </p>
+            </div>
+        </div>
+    </div>
+
     <div class="line">
         <ul class="bar">
+            <abbr title="Guerra XX">
             <li onclick="showModal()" class="dot-act">
                 <span class="timeline-point"></span>
                 <div class="year"></div>
                 <div class="content"></div>
-            </li>
+            </li></abbr>
             <li class="dot-act">
                 <div class="year"></div>
                 <div class="content"></div>
@@ -87,21 +100,11 @@
             </div>
         </div>
     </div>
-    <div class="tutorial" id="tutorial">
-        <div class="tutorial-content">
-            <span onclick="hideTuto()" class="exits">&times;</span>
-            <div class="conteudo-tuto">
-                <h1>Sejam bem-vindos a nossa linha do tempo</h1>
-                <p>Nossa linha do tempo funciona assim:</p>
-           
-                <p>Cada bolinha é identificada por ano(2001-2010), para você saber qual guerra aconteceu em um determinado ano basta clicar no ano desejado </p>
-            </div>
-        </div>
-    </div>
+    
     <footer class="rodape">
         <div class="linha"></div>
         <span class="cont">
-            <p>&copy; 2022 - WarLine: Conteúdo Escolar</p>
+            <p>&copy; Copyright 2022 - WarLine: Conteúdo Escolar</p>
             <p class="dir">Todos os direitos reservados.</p>
             <br>
     </footer>
