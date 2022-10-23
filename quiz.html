@@ -26,7 +26,7 @@
         </ul>
     </header>
     <!--<button type='button' onclick='location.reload()'>Reload</button>-->
-    <div class="quiz">
+    <!--<div class="quiz">
         <div id="cont-quiz">
             <h1 class="title-quiz">Quiz</h1>
         </div>
@@ -55,7 +55,36 @@
 
 		</div>
         
-    </div>
+    </div>-->
+
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 id="question">Question text</h2>
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer">
+              <label for="a" id="a_text">Question</label>
+            </li>
+   
+            <li>
+              <input type="radio" name="answer" id="b" class="answer">
+              <label for="b" id="b_text">Question</label>
+            </li>
+   
+            <li>
+              <input type="radio" name="answer" id="c" class="answer">
+              <label for="c" id="c_text">Question</label>
+            </li>
+   
+            <li>
+              <input type="radio" name="answer" id="d" class="answer">
+              <label for="d" id="d_text">Question</label>
+            </li>
+          </ul>
+        </div>
+        <button id="submit">Próxima questão</button>
+      </div>
+      <script src="./js/quiz.js"></script>
     
 
     <footer class="rodape">
