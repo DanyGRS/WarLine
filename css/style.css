@@ -579,7 +579,21 @@ h1 {
     display: flex;
     margin-top: -4%;
     justify-content: space-evenly;
+    transition: transform 1s;
+ 
 }
+
+/* EFEITO PARA A IMAGEM SALTAR QUANDO PASSAMOS O MOUSE */
+.fotos .desc-kaliny:hover,
+.fotos .desc-kaliny:focus {
+  transform: translateX(10px) scale(1.2);
+}
+
+.fotos .desc-dany:hover,
+.fotos .desc-dany:focus {
+  transform: translateX(10px) scale(1.2);
+}
+/* FIM efeito */
 
 .seg-img-sobre {
     text-align: center;
