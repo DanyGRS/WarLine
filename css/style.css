@@ -595,6 +595,10 @@ h1 {
 }
 /* FIM efeito */
 
+.paragrafo {
+    text-align: justify;
+}
+
 .seg-img-sobre {
     text-align: center;
     margin-top: 20px;
