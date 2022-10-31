@@ -5,7 +5,10 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--cor1);
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -64,10 +67,10 @@ h1 {
 }
 
 .menu {
-    position: sticky;
+    position: fixed;
     font-size: 80%;
     width: 100%;
-    background-color: rgba(93, 138, 155, 0.95);
+    background-color: rgba(93, 138, 155, 1);
     padding: 0px 50px;
     box-sizing: border-box;
     margin-top: 0px;
@@ -278,7 +281,7 @@ h1 {
     /*padding: 20px 60px 30px 40px;*/
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-    margin-top: 0px;
+    margin-top: 90px;
     display: flex;
     align-items: center;
     height: 400px;
@@ -406,19 +409,27 @@ h1 {
     box-sizing: border-box;
     margin-top: auto;
     display: grid;
-    align-items: center;
-    height: 80px;
+    height: 5%;
 }
-
-.politica {
+.ajuste-rodape{
     margin-top: 20px;
-    margin-bottom:0px;
-    display: flex;
-    list-style: disc;
-    justify-content: space-around ;
+    display:flex;
+}
+.politica {
+   /* margin-top: 20px; */
+   margin-bottom:0px;
+   display: flex;
+   list-style: disc;
+   justify-content: space-evenly;
+   align-content: flex-end;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: flex-end;
 }
 .politica a {
+    font-size: 14px;
     color: var(--cor4);
+    padding: 5px;
     text-decoration: none;
 }
 
@@ -437,11 +448,11 @@ h1 {
 
 .cont {
     height: 80%;
-    width: 100%;
-    text-align: center;
+    width: 90%;
 }
 
 .cont p {
+    font-size: 14px;
     color: var(--cor4);
     margin: 0px auto;
 }
@@ -454,6 +465,7 @@ h1 {
 .container {
     background: var(--cor4);
     border-radius: 6px;
+    margin-top: 90px;
     padding: 20px 60px 30px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 
@@ -572,7 +584,7 @@ h1 {
 
 .img-sobre {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 90px;
 }
 
 .img-sobre img {
@@ -668,7 +680,7 @@ h1 {
     background-color: rgba(81, 100, 117, 0.5);
     padding: 16px 24px;
     width: 40%;
-    margin-top: 1%;
+    margin-top: 90px;
     height: 60%;
     border-radius: 0.5rem;
     text-align: center;
@@ -725,6 +737,7 @@ h1 {
     width: 1090px;
     overflow: hidden;
     margin: 0 auto;
+    margin-top: 90px;
     width: 70%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
