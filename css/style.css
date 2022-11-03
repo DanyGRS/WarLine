@@ -240,13 +240,20 @@ h1 {
     width: 80%;
     height: 60%;
     border-radius: 0.5rem;
+}
+
+.modal-content h1 {
     text-align: center;
-
 }
 
-.modal-content div {
+.paragrafo-p {
+    font-size: 13px;
+    text-align: center;
+}
+
+/*.modal-content div {
     display: flex;
-}
+}*/
 
 .exit {
     float: right;
@@ -629,6 +636,7 @@ h1 {
 .seg-img-sobre img {
     height: 80px;
 }
+
 
 .tabela {
     color: var(--cor2);
