@@ -1,10 +1,10 @@
 const quizData = [
     {
-        question: "Como e por que começaram os ataques ao Afeganistão?",
-        a: " Após Osama bin Laden, o chefe do grupo extremista al-Qaeda, ser identificado como responsável pelos atentados de 11 de setembro. Então, um mês depois os Estados Unidos lançaram ataques aéreos contra o país.",
-        b: "O Afeganistão já era um país de conflitos armados constantes, havia pelo menos 20 anos quando os Estados Unidos invadiram o território usando armas.",
-        c: "As tropas soviéticas que deram início à guerra, invadindo o Afeganistão para dar apoio ao governo comunista que havia se instalado no país.",
-        d: "Nos últimos anos, o Talebã passou a lançar mais ataques contra a China, resultando numa guerra separada por aliados.",
+        question: "Sabemos que alguns países da Europa se juntaram numa Aliança Militar, quais foram eles e quais eram os nomes dos grupos?",
+        a: "Tríplice Entente: formada por Rússia, Grã-Bretanha e França; e Tríplice Aliança: formada por Alemanha, Áustria-Hungria, Império Otomano e Itália.",
+        b: "União Européia: formada por Alemanha, Estados Unidos e Espanha; e União Comunista: formada pela Rússia, Áustria-Hunria e Grã-Bretanha.",
+        c: "Aliança Exterior: formada por Rússia, Grã-Bretanha e Itália; e Aliança Sencionalista: formada por Alemanha, Áustria-Hungria, Império Otomano e França.",
+        d: "Tríplice Entente: formada por Alemanha, Áustria-Hungria, Império Otomano e Itália; e Tríplice Aliança: formada por Rússia, Grã-Bretanha e França.",
         correct: "a",
     },
     {
