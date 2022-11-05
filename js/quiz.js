@@ -8,11 +8,11 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What does CSS stand for?",
-        a: "Central Style Sheets",
-        b: "Cascading Style Sheets",
-        c: "Cascading Simple Sheets",
-        d: "Cars SUVs Sailboats",
+        question: "Quanto tempo durou a Segunda Guerra Mundial?",
+        a: "Ela teve a duração de 5 anos, sendo de 1917 até 1922.",
+        b: "A guerra ocorreu entre 1939 e 1945.",
+        c: "Aconteceu somente em 1929",
+        d: "Ocorreu em 1964 e foi até 1968",
         correct: "b",
     },
     {
