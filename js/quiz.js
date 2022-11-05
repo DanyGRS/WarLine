@@ -39,6 +39,14 @@ const quizData = [
         d: "O cristianismo, eles acreditavam que era a única religião digna de esperança.",
         correct: "d",
     },
+    {
+        question: "Quais foram as consequências que a Guerra dos 30 anos deixou?",
+        a: "A fome e a miséria.",
+        b: "A conquista do território da Rússia.",
+        c: "A independência dos Países Baixos e o uso da diplaomacia e do direito internacional.",
+        d: "A independência dos Países Baixos e mais de 40 milhões de mortos de fome.",
+        correct: "c",
+    },
 ];
  
 const quiz = document.getElementById('quiz')
