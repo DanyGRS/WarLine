@@ -24,11 +24,11 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What year was JavaScript launched?",
-        a: "1996",
-        b: "1995",
-        c: "1994",
-        d: "none of the above",
+        question: "A Segunda Guerra Sino-Japonesa foi do Japão contra:",
+        a: "Estados Unidos",
+        b: "China",
+        c: "Coréia do Norte",
+        d: "Rússia",
         correct: "b",
     },
 ];
