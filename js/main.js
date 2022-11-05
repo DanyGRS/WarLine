@@ -39,6 +39,16 @@ function hideModalQuatro(){
   element.classList.remove("show-modalQuatro");
 }
 
+function showModalCinco() {
+  var element = document.getElementById("modalCinco");
+  element.classList.add("show-modalCinco");
+}
+
+function hideModalCinco(){
+  var element =  document.getElementById("modalCinco");
+  element.classList.remove("show-modalCinco");
+}
+
 function showTuto() {
   var element = document.getElementById("tutorial");
   element.classList.add("show-tutorial");

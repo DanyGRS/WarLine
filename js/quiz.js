@@ -31,6 +31,14 @@ const quizData = [
         d: "Rússia",
         correct: "b",
     },
+    {
+        question: "Qual foi a principal causa da Rebelião de Taiping?",
+        a: "A fome, eles precisavam encontrar alimentos para o crescimento de guerreiros.",
+        b: "Eles queriam mais territórios e guerreiros.",
+        c: "A sede por vingança contra seus inimigos.",
+        d: "O cristianismo, eles acreditavam que era a única religião digna de esperança.",
+        correct: "d",
+    },
 ];
  
 const quiz = document.getElementById('quiz')
