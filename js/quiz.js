@@ -16,11 +16,11 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "What does HTML stand for?",
-        a: "Hypertext Markup Language",
-        b: "Hypertext Markdown Language",
-        c: "Hyperloop Machine Language",
-        d: "Helicopters Terminals Motorboats Lamborginis",
+        question: "O que incentivou esse império a invadir e conquistar outros territórios?",
+        a: "Eles eram atraídos por jóias e tudo que aparentava riqueza.",
+        b: "Com o aumento da população, eles tiveram que conquistar mais mantimentos.",
+        c: "Tudo era realizado por vontade de vingança contra o império Romano",
+        d: "Eles queriam mais guerreiros.",
         correct: "a",
     },
     {

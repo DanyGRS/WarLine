@@ -19,6 +19,25 @@ function hideModalDois(){
   element.classList.remove("show-modalDois");
 }
 
+function showModalTres() {
+  var element = document.getElementById("modalTres");
+  element.classList.add("show-modalTres");
+}
+
+function hideModalTres(){
+  var element =  document.getElementById("modalTres");
+  element.classList.remove("show-modalTres");
+}
+
+function showModalQuatro() {
+  var element = document.getElementById("modalQuatro");
+  element.classList.add("show-modalQuatro");
+}
+
+function hideModalQuatro(){
+  var element =  document.getElementById("modalQuatro");
+  element.classList.remove("show-modalQuatro");
+}
 
 function showTuto() {
   var element = document.getElementById("tutorial");
