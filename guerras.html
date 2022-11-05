@@ -45,18 +45,20 @@
 
     <div class="line">
         <ul class="bar">
-            <abbr title="Guerra XX">
+            <abbr title="Primeira Guerra Mundial">
                 <li onclick="showModal()" class="dot-act">
                     <div>
                         <img src="./img/pri-guerra-mundial.png">
                     </div>
                 </li>
             </abbr>
-            <li class="dot-act">
-                <div id="apa">
-                    <img src="./img/seg-guerra-mundial.png" class="image">
-                </div>
-            </li>
+            <abbr title="Segunda Guerra Mundial">
+                <li onclick="showModalDois()" class="dot-act">
+                    <div id="apa">
+                        <img src="./img/seg-guerra-mundial.png" class="image">
+                    </div>
+                </li>
+            </abbr>
             
             <li class="dot-act">
                 <div>
@@ -106,13 +108,13 @@
     </div>
     </section>
    
-    <div class="modal" id="modal">
+    <div class="modal" id="modal"><!--PRIMEIRA GUERRA-->
         <div class="modal-content">
             <span onclick="hideModal()" class="exit">&times;</span>
             <h1>Primeira Guerra Mundial </h1>
             <div class="conteudo">
                 <p class="paragrafo">
-                    <strong>Onde:</strong> Iniciou-se na Europa, , se destacando a <i>Frente Ocidental</i>, franceses e britânicos lutaram contra os alemães, e a <i>Frente Oriental</i>, em que os alemães lutaram contra sérvios e russos.
+                    <strong>Onde:</strong> Iniciou-se na Europa, se destacando a <i>Frente Ocidental</i>, franceses e britânicos lutaram contra os alemães, e a <i>Frente Oriental</i>, em que os alemães lutaram contra sérvios e russos.
                 </p>
                 <p class="paragrafo">
                     <strong>Quando:</strong> Começou em 28 de julho de 1914 e durou até 11 de novembro de 1918.
@@ -133,14 +135,50 @@
                     <strong>Estopim:</strong> O assasinato do arquiduque Francisco Ferdinando e sua esposa, Sofia, em Sarajevo, na Bósnia, em junho de 1914.
                 </p>
                 <p class="paragrafo">
-                    <strong>Consequências:</strong> 10 milhões de mortos, reformulação do mapa mundial, Tratado de Versalhes, fim da “Belle époque”...
+                    <strong>Consequências:</strong> 10 milhões de mortos, reformulação do mapa mundial, Tratado de Versalhes, fim da “Belle Époque”...
                 </p>
                 <p class="paragrafo-p">
                     Deseja saber mais detalhadamente o que aconteceu nesta guerra? Assista o <a href="https://www.youtube.com/watch?v=TP-LGkoE2x8">vídeo</a> com o conteúdo completo!
                 </p>
             </div>
         </div>
-    </div>
+    </div><!--FIM PRIMEIRA GUERRA-->
+
+    <div class="modalDois" id="modalDois"><!--SEGUNDA GUERRA-->
+        <div class="modal-contentDois">
+            <span onclick="hideModalDois()" class="exit">&times;</span>
+            <h1>Segunda Guerra Mundial </h1>
+            <div class="conteudo">
+                <p class="paragrafo">
+                    <strong>Onde:</strong> Iniciou-se na Europa, mas espalhou-se pela África, Ásia e Oceania.
+                </p>
+                <p class="paragrafo">
+                    <strong>Quando:</strong> Entre 1939 e 1945.
+                </p>
+                <p class="paragrafo">
+                    <strong>Principais causas:</strong> A Grande Depressão, o descontentamento com o Tratado de Versalhes, as ideologias fascista e nazista, e o expansionismo japonês.
+                </p>
+                <p class="paragrafo">
+                    <strong>Envolvidos:</strong> Nações de todos os continentes, inclusive o Brasil. Os grupos que se enfrentaram na guerra foram:
+                    <ul>
+                        Aliados (Reino Unido, França, União Soviética e Estados Unidos);
+                    </ul>
+                    <ul>
+                        Eixo (Alemanha, Itália e Japão).
+                    </ul>
+                </p>
+                <p class="paragrafo">
+                    <strong>Estopim:</strong> A invasão da Polônia pelos alemães em 1º de setembro de 1939.
+                </p>
+                <p class="paragrafo">
+                    <strong>Consequências:</strong>  Além de ter deixado milhares de mortos e feridos, a guerra redefiniu o equilíbrio de poder mundial. Com ela teve a ascensão dos Estados Unidos, a divisão do mundo entre capitalismo e socialismo e o surgimento da ONU.
+                </p>
+                <p class="paragrafo-p">
+                    Deseja saber mais detalhadamente o que aconteceu nesta guerra? Assista o <a href="https://www.youtube.com/watch?v=RedndCHHtYc">vídeo</a> com o conteúdo completo!
+                </p>
+            </div>
+        </div>
+    </div><!--FIM SEGUNDA GUERRA-->
     
     <footer class="rodape">
         <div class="linha"></div>

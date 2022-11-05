@@ -9,6 +9,16 @@ function hideModal(){
     element.classList.remove("show-modal");
 }
 
+function showModalDois() {
+  var element = document.getElementById("modalDois");
+  element.classList.add("show-modalDois");
+}
+
+function hideModalDois(){
+  var element =  document.getElementById("modalDois");
+  element.classList.remove("show-modalDois");
+}
+
 
 function showTuto() {
   var element = document.getElementById("tutorial");
