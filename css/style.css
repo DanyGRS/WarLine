@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--cor1);
+    background-color: var(--cor6);
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -30,7 +30,7 @@ body {
 
 .bg {
     animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #205373 50%, #c4e1f2 50%);
+    background-image: linear-gradient(-60deg, var(--cor6) 50%, var(--cor3) 50%);
     bottom: 0;
     left: -50%;
     opacity: .5;
@@ -68,7 +68,7 @@ h1 {
     z-index: 2;
     font-size: 80%;
     width: 100%;
-    background-color: rgba(93, 138, 155, 1);
+    background-color: var(--cor6);
     padding: 0px 50px;
     box-sizing: border-box;
     margin-top: 0px;
@@ -111,7 +111,7 @@ h1 {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #c4e1f2;
+    background-color: var(--corTest);
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -177,7 +177,7 @@ h1 {
     margin: -6% 18%;
     border-radius: 50%;
     width: 80px;
-    border: 4px solid var(--cor2);
+    border: 4px solid var(--corTest);
     height: 80px;
     line-height: 80px;
     z-index: 0;
@@ -190,7 +190,7 @@ h1 {
     position: absolute;
     width: 100%;
     height: 4px;
-    background-color: var(--cor2);
+    background-color: var(--corTest);
     top: 35px;
     left: -55%;
     z-index: -1;
@@ -595,7 +595,7 @@ h1 {
     font-size: 80%;
     width: 100%;
     position: relative;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 6px;
     /*padding: 20px 60px 30px 40px;*/
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -637,9 +637,10 @@ h1 {
     width: 100px;
     height: 30px;
     font-size: 16px;
-    position: fixed;
+    position: absolute;
+    border-color: var(--cor6);
     border-radius: 20px;
-    background-color: var(--cor2);
+    background-color: var(--corTest);
     font-weight: 600;
     color: var(--cor4);
 }
@@ -722,8 +723,7 @@ h1 {
     bottom: 0;
     font-size: 80%;
     width: 100%;
-    /*background-color: var(--cor6);*/
-    background-color: #205373;
+    background-color: var(--co);
     padding: 0px 40px;
     box-sizing: border-box;
     margin-top: auto;
@@ -792,7 +792,8 @@ h1 {
     border-radius: 6px;
     margin-top: 90px;
     padding: 20px 60px 30px 40px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.30);
 
 }
 
@@ -896,13 +897,13 @@ h1 {
     border: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background: var(--cor6);
+    background: var(--corTest);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .button input[type="submit"]:hover {
-    background: #5c8faf;
+    background: var(--corTest2);
 }
 
 /* aba sobre nós */
@@ -999,12 +1000,12 @@ h1 {
 }
 
 .conteudo-tuto {
-    color: var(--cor4);
+    color: var(--cor2);
 
 }
 
 .tutorial-content {
-    background-color: rgba(81, 100, 117, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
     padding: 16px 24px;
     width: 40%;
 
@@ -1058,7 +1059,7 @@ h1 {
   }*/
 
 .quiz-container {
-    background-color: var(--cor4);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
     width: 1090px;
@@ -1096,7 +1097,7 @@ ul li label {
 }
 
 #submit {
-    background-image: linear-gradient(to right, var(--cor2), var(--cor2));
+    background-image: linear-gradient(to right, var(--corTest), var(--corTest));
     color: var(--cor4);
     border: none;
     display: block;
@@ -1116,3 +1117,138 @@ ul li label {
     outline: none;
     background-color: #5e3370;
 }
+
+/* Container de filmes*/
+.containerFilmes{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerTitles{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .containerTitles h1{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .containerTitles h2{
+    font-weight: normal;
+  }
+  .component-systemTabs{
+    width: 100%;
+    display: flex;
+  }
+  .component-systemTabs .tabs-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .component-systemTabs .tabs-container ul.tabs {
+    margin: 20px 0;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+  }
+  .component-systemTabs .tabs-container ul.tabs li {
+    background: none;
+    color: rgba(90,90,90, 1);
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: 500;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 1.2rem;
+    transition: all 0.5s ease;
+  }
+  .component-systemTabs .tabs-container ul.tabs li:hover{
+    color: rgba(1,75,140, 1);
+  }
+  .component-systemTabs .tabs-container ul.tabs li.current {
+    color: rgba(1,75,140, 1);
+    border-bottom: 2px solid rgba(1,75,140, 1);
+    transition: all 0.5s ease;
+  }
+  .component-systemTabs .tab-content {
+    display: none;
+    padding: 0px;
+    width: 100%;
+  }
+  .component-systemTabs .tab-content.current {
+    display: block;
+  }
+  .component-systemTabs .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .component-systemTabs .cards .card{
+    width: 250px;
+    height: 300px;
+    margin: 2%;
+    position: relative;
+  }
+  .component-systemTabs .cards .card img{
+    height: 100%;
+    width: 100%;
+    max-width: 250px;
+    max-height: 300px;
+  }
+  .component-systemTabs .cards .card .cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    background-color: rgba(0,0,0, .65);
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .component-systemTabs .cards .card .cardContent h2{
+    color: rgba(255,255,255, 1);
+  }
+  .component-systemTabs .cards .card .cardContent button{
+    border: 0;
+    background-color: rgba(248,158,53, 1);
+    padding: 7px 10px;
+    width: 100px;
+    color: rgba(255,255,255, 1);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transition: 0.3s ease;
+  }
+  .component-systemTabs .cards .card .cardContent button:hover{
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0, .3);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0, .3);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0, .3);
+    font-size: 1.25rem;
+  }
+  .component-systemTabs .cards .card .cardContent:hover{
+    background-color: rgba(0,0,0, .2);
+  }
+  .component-systemTabs .cards .card .cardContent:hover button{
+    opacity: 1;
+  }
