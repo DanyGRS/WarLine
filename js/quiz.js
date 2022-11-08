@@ -16,7 +16,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "O que incentivou esse império a invadir e conquistar outros territórios?",
+        question: "Sobre as Conquistas Mongóis, o que incentivou esse império a invadir e conquistar outros territórios?",
         a: "Eles eram atraídos por jóias e tudo que aparentava riqueza.",
         b: "Com o aumento da população, eles tiveram que conquistar mais mantimentos.",
         c: "Tudo era realizado por vontade de vingança contra o império Romano",
@@ -46,6 +46,22 @@ const quizData = [
         c: "A independência dos Países Baixos e o uso da diplaomacia e do direito internacional.",
         d: "A independência dos Países Baixos e mais de 40 milhões de mortos de fome.",
         correct: "c",
+    },
+    {
+        question: "Qual era o principal motivo das guerras de Napoleão?",
+        a: "Ele queria ouros e jóias.",
+        b: "Acabar com a monarquia absolutista.",
+        c: "Conquistar terrritórios para governar.",
+        d: "Liderar o maior exército do mundo.",
+        correct: "b",
+    },
+    {
+        question: "A Guerra Civil Americana foi realizada de quem contra quem?",
+        a: "Brasil contra Paraguai.",
+        b: "México contra contra Argentina.",
+        c: "Estados Unidos contra Irã.",
+        d: "Estados do Sul contra os do Norte dos Estados Unidos.",
+        correct: "d",
     },
 ];
  
