@@ -59,6 +59,46 @@ function hideModalSeis(){
   element.classList.remove("show-modalSeis");
 }
 
+function showModalSete() {
+  var element = document.getElementById("modalSete");
+  element.classList.add("show-modalSete");
+}
+
+function hideModalSete(){
+  var element =  document.getElementById("modalSete");
+  element.classList.remove("show-modalSete");
+}
+
+function showModalOito() {
+  var element = document.getElementById("modalOito");
+  element.classList.add("show-modalOito");
+}
+
+function hideModalOito(){
+  var element =  document.getElementById("modalOito");
+  element.classList.remove("show-modalOito");
+}
+
+function showModalNove() {
+  var element = document.getElementById("modalNove");
+  element.classList.add("show-modalNove");
+}
+
+function hideModalNove(){
+  var element =  document.getElementById("modalNove");
+  element.classList.remove("show-modalNove");
+}
+
+function showModalDez() {
+  var element = document.getElementById("modalDez");
+  element.classList.add("show-modalDez");
+}
+
+function hideModalDez(){
+  var element =  document.getElementById("modalDez");
+  element.classList.remove("show-modalDez");
+}
+
 function showTuto() {
   var element = document.getElementById("tutorial");
   element.classList.add("show-tutorial");
