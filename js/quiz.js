@@ -63,6 +63,14 @@ const quizData = [
         d: "Estados do Sul contra os do Norte dos Estados Unidos.",
         correct: "d",
     },
+    {
+        question: "Quando começou e quantos anos durou a Guerra Soviética no Afeganistão?",
+        a: "3 anos, iniciando em 1960.",
+        b: "10 anos, teve início em 1979.",
+        c: "5 anos, começou em 1975.",
+        d: "10 anos, iniciou em 1994.",
+        correct: "b",
+    },
 ];
  
 const quiz = document.getElementById('quiz')
