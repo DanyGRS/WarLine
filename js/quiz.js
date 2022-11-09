@@ -71,6 +71,14 @@ const quizData = [
         d: "10 anos, iniciou em 1994.",
         correct: "b",
     },
+    {
+        question: "Os Estados Unidos ficaram de qual lado na Guerra do Vietnã?",
+        a: "Vietnã do Norte.",
+        b: "Vietnã do Sul.",
+        c: "União Soviética.",
+        d: "Nenhum.",
+        correct: "b",
+    },
 ];
 
 const quiz = document.getElementById('quiz')
