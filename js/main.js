@@ -131,7 +131,3 @@ window.onclick = function(event){
     }
   }
 }
-
-function alertConfirm(){
-  alert("Sua mensagem foi enviada com sucesso!");
-}
