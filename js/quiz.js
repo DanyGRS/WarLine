@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "Sabemos que alguns países da Europa se juntaram numa Aliança Militar, quais foram eles e quais eram os nomes dos grupos?",
+        question: "Sabemos que na Primeira Guerra Mundial alguns países da Europa se juntaram numa Aliança Militar, quais foram eles e quais eram os nomes dos grupos?",
         a: "Tríplice Entente: formada por Rússia, Grã-Bretanha e França; e Tríplice Aliança: formada por Alemanha, Áustria-Hungria, Império Otomano e Itália.",
         b: "União Européia: formada por Alemanha, Estados Unidos e Espanha; e União Comunista: formada pela Rússia, Áustria-Hunria e Grã-Bretanha.",
         c: "Aliança Exterior: formada por Rússia, Grã-Bretanha e Itália; e Aliança Sencionalista: formada por Alemanha, Áustria-Hungria, Império Otomano e França.",
@@ -78,6 +78,46 @@ const quizData = [
         c: "União Soviética.",
         d: "Nenhum.",
         correct: "b",
+    },
+    {
+        question: "Quais grupos se enfrentaram na Segunda Guerra Mundial?",
+        a: "Aliados (Reino Unido, França, União Soviética e Estados Unidos) contra Eixo (Alemanha, Itália e Japão).",
+        b: "Tríplice Entente (Rússia, Grã-Bretanha e França) e Aliados (Japão, Estados Unidos e Chile).",
+        c: "Aliados (Alemanha, Itália e Japão) contra Eixo (Reino Unido, França, União Soviética e Estados Unidos).",
+        d: "Eixo (Japão, França e Alemanha) contra Tríplice Entente (Estados Unidos, Itália e União Soviética).",
+        correct: "a",
+    },
+    {
+        question: "Qual foi a maior causa da Guerra Civil Americana?",
+        a: "Não gostavam do Presidente.",
+        b: "Queriam maior crédito e visibilidade nas exportações e no comércio.",
+        c: "Eles lutavam por uma sociedade comunista.",
+        d: "Queriam a separação dos Estados.",
+        correct: "d",
+    },
+    {
+        question: "A rebelião de Taiping ocorreu após Hong (o líder) ter visões que ele acreditava terem sido enviadas por Deus, como ele começou a se denominar?",
+        a: "Ele entendeu que seu nome seria Hong Cristo.",
+        b: "Ele gostava que o chamassem de Deus da Terra.",
+        c: "Ele concluiu que era o irmão mais novo de Jesus Cristo.",
+        d: "Ele começou a se considerar o segundo deus.",
+        correct: "c",
+    },
+    {
+        question: "O que podemos definir como estopim da Primeira Guerra Mundial?",
+        a: "A violência ao Rei Católico Fernando II, o qual foi atirado pela janela do Palácio Real.",
+        b: "O incidente da Ponte Marco Polo.",
+        c: "O assasinato do arquiduque Francisco Ferdinando e sua esposa, Sofia, em Sarajevo, na Bósnia, em junho de 1914.",
+        d: "A invasão da Polônia pelos alemães em 1º de setembro de 1939.",
+        correct: "c",
+    },
+    {
+        question: "Quais foram as consequências das Guerras Napoleônicas?",
+        a: "Foram construídas fábricas, foram criadas universidades, a Biblioteca Real, a Academia de Belas Artes. Com essas estruturas, o Brasil ia se tornando independente da sua colônia.",
+        b: " A maioria do exército foi destruída. Estima-se que 30 milhões de pessoas morreram.",
+        c: "Deixaram mais de 600 mil americanos mortos e destruíram grande parte da infraestrutura do sul do país.",
+        d: "10 milhões de mortos, reformulação do mapa mundial, Tratado de Versalhes, fim da “Belle Époque”.",
+        correct: "a",
     },
 ];
 
