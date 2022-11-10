@@ -1,5 +1,6 @@
 const quizData = [
-    {
+    {   
+        numberQuestion: "1/15",
         question: "Sabemos que na Primeira Guerra Mundial alguns países da Europa se juntaram numa Aliança Militar, quais foram eles e quais eram os nomes dos grupos?",
         a: "Tríplice Entente: formada por Rússia, Grã-Bretanha e França; e Tríplice Aliança: formada por Alemanha, Áustria-Hungria, Império Otomano e Itália.",
         b: "União Européia: formada por Alemanha, Estados Unidos e Espanha; e União Comunista: formada pela Rússia, Áustria-Hunria e Grã-Bretanha.",
@@ -8,6 +9,7 @@ const quizData = [
         correct: "a",
     },
     {
+        numberQuestion: "2/15",
         question: "Quanto tempo durou a Segunda Guerra Mundial?",
         a: "Ela teve a duração de 5 anos, sendo de 1917 até 1922.",
         b: "A guerra ocorreu entre 1939 e 1945.",
@@ -16,6 +18,7 @@ const quizData = [
         correct: "b",
     },
     {
+        numberQuestion: "3/15",
         question: "Sobre as Conquistas Mongóis, o que incentivou esse império a invadir e conquistar outros territórios?",
         a: "Eles eram atraídos por jóias e tudo que aparentava riqueza.",
         b: "Com o aumento da população, eles tiveram que conquistar mais mantimentos.",
@@ -24,6 +27,7 @@ const quizData = [
         correct: "a",
     },
     {
+        numberQuestion: "4/15",
         question: "A Segunda Guerra Sino-Japonesa foi do Japão contra:",
         a: "Estados Unidos",
         b: "China",
@@ -32,6 +36,7 @@ const quizData = [
         correct: "b",
     },
     {
+        numberQuestion: "5/15",
         question: "Qual foi a principal causa da Rebelião de Taiping?",
         a: "A fome, eles precisavam encontrar alimentos para o crescimento de guerreiros.",
         b: "Eles queriam mais territórios e guerreiros.",
@@ -40,6 +45,7 @@ const quizData = [
         correct: "d",
     },
     {
+        numberQuestion: "6/15",
         question: "Quais foram as consequências que a Guerra dos 30 anos deixou?",
         a: "A fome e a miséria.",
         b: "A conquista do território da Rússia.",
@@ -48,6 +54,7 @@ const quizData = [
         correct: "c",
     },
     {
+        numberQuestion: "7/15",
         question: "Qual era o principal motivo das guerras de Napoleão?",
         a: "Ele queria ouros e jóias.",
         b: "Acabar com a monarquia absolutista.",
@@ -56,6 +63,7 @@ const quizData = [
         correct: "b",
     },
     {
+        numberQuestion: "8/15",
         question: "A Guerra Civil Americana foi realizada de quem contra quem?",
         a: "Brasil contra Paraguai.",
         b: "México contra contra Argentina.",
@@ -64,6 +72,7 @@ const quizData = [
         correct: "d",
     },
     {
+        numberQuestion: "9/15",
         question: "Quando começou e quantos anos durou a Guerra Soviética no Afeganistão?",
         a: "3 anos, iniciando em 1960.",
         b: "10 anos, teve início em 1979.",
@@ -72,6 +81,7 @@ const quizData = [
         correct: "b",
     },
     {
+        numberQuestion: "10/15",
         question: "Os Estados Unidos ficaram de qual lado na Guerra do Vietnã?",
         a: "Vietnã do Norte.",
         b: "Vietnã do Sul.",
@@ -80,6 +90,7 @@ const quizData = [
         correct: "b",
     },
     {
+        numberQuestion: "11/15",
         question: "Quais grupos se enfrentaram na Segunda Guerra Mundial?",
         a: "Aliados (Reino Unido, França, União Soviética e Estados Unidos) contra Eixo (Alemanha, Itália e Japão).",
         b: "Tríplice Entente (Rússia, Grã-Bretanha e França) e Aliados (Japão, Estados Unidos e Chile).",
@@ -88,6 +99,7 @@ const quizData = [
         correct: "a",
     },
     {
+        numberQuestion: "12/15",
         question: "Qual foi a maior causa da Guerra Civil Americana?",
         a: "Não gostavam do Presidente.",
         b: "Queriam maior crédito e visibilidade nas exportações e no comércio.",
@@ -96,6 +108,7 @@ const quizData = [
         correct: "d",
     },
     {
+        numberQuestion: "13/15",
         question: "A rebelião de Taiping ocorreu após Hong (o líder) ter visões que ele acreditava terem sido enviadas por Deus, como ele começou a se denominar?",
         a: "Ele entendeu que seu nome seria Hong Cristo.",
         b: "Ele gostava que o chamassem de Deus da Terra.",
@@ -104,6 +117,7 @@ const quizData = [
         correct: "c",
     },
     {
+        numberQuestion: "14/15",
         question: "O que podemos definir como estopim da Primeira Guerra Mundial?",
         a: "A violência ao Rei Católico Fernando II, o qual foi atirado pela janela do Palácio Real.",
         b: "O incidente da Ponte Marco Polo.",
@@ -112,6 +126,7 @@ const quizData = [
         correct: "c",
     },
     {
+        numberQuestion: "15/15",
         question: "Quais foram as consequências das Guerras Napoleônicas?",
         a: "Foram construídas fábricas, foram criadas universidades, a Biblioteca Real, a Academia de Belas Artes. Com essas estruturas, o Brasil ia se tornando independente da sua colônia.",
         b: " A maioria do exército foi destruída. Estima-se que 30 milhões de pessoas morreram.",
@@ -124,6 +139,7 @@ const quizData = [
 const quiz = document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
+const questionNum = document.getElementById('numberQuestion')
 const a_text = document.getElementById('a_text')
 const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
@@ -140,6 +156,7 @@ function loadQuiz() {
 
     const currentQuizData = quizData[currentQuiz]
 
+    questionNum.innerText = currentQuizData.numberQuestion
     questionEl.innerText = currentQuizData.question
     a_text.innerText = currentQuizData.a
     b_text.innerText = currentQuizData.b

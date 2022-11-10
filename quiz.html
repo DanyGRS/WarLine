@@ -1,77 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="./js/main.js"></script>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/mobile.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Quiz</title>
-</head>
-<body>
-    <header class="menu">
-        <div class="logo">
-            <a href="./index.html"><img src="./img/logo-WarLine.png" height="95" /></a>
-        </div>
-        <div class="drop">
-            <button onclick="myFunction()" class="dropbtn">Menu ☰</button>
-            <div id="myDropdown" class="dropdown-content">
-        <ul>
-            <li><a href="./guerras.html">Guerras</a></abbr></li>
-            <li><abbr title="Você está Aqui!"><a class="veaqui" style="color: #A6874E;">Quiz</a></abbr></li>
-            <li><a href="./contato.html">Contato</a></li>
-            <li><a href="./sobre-nos.html">Quem somos</a></li>
-        </ul>
-    </header>
-    
-    <div class="quiz-container" id="quiz">
-        <div class="quiz-header">
-          <h2 id="question">Question text</h2>
-          <br>
-          <ul>
-            <li>
-              <input type="radio" name="answer" id="a" class="answer">
-              <label for="a" id="a_text">Question</label>
-            </li>
-   
-            <li>
-              <input type="radio" name="answer" id="b" class="answer">
-              <label for="b" id="b_text">Question</label>
-            </li>
-   
-            <li>
-              <input type="radio" name="answer" id="c" class="answer">
-              <label for="c" id="c_text">Question</label>
-            </li>
-   
-            <li>
-              <input type="radio" name="answer" id="d" class="answer">
-              <label for="d" id="d_text">Question</label>
-            </li>
-          </ul>
-        </div>
-        <button id="submit">Próxima questão</button>
-      </div>
-      <script src="./js/quiz.js"></script>
-    
 
-      <footer class="rodape">
-        <div class="linha"></div>
-        <div class="ajuste-rodape">
-            <span class="cont">
-                <p>&copy; Copyright 2022 | WarLine - Todos os direitos reservados.</p>
-                <p class="dir"></p>
-                <br>
-            </span>
-            <span class="politica">
-                <a href="./politica-privacidade.html">Política de Privacidade</a>
-                <a href="./termos-de-uso.html">Termos de Uso</a>
-            </span>
-        </div>
-        
-    </footer>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./js/main.js"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/mobile.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Quiz</title>
+</head>
+
+<body>
+  <header class="menu">
+    <div class="logo">
+      <a href="./index.html"><img src="./img/logo-WarLine.png" height="95" /></a>
+    </div>
+    <div class="drop">
+      <button onclick="myFunction()" class="dropbtn">Menu ☰</button>
+      <div id="myDropdown" class="dropdown-content">
+        <ul>
+          <li><a href="./guerras.html">Guerras</a></abbr></li>
+          <li><abbr title="Você está Aqui!"><a class="veaqui" style="color: #A6874E;">Quiz</a></abbr></li>
+          <li><a href="./contato.html">Contato</a></li>
+          <li><a href="./sobre-nos.html">Quem somos</a></li>
+        </ul>
+  </header>
+
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h4 id="numberQuestion">1/15</h4>
+      <h2 id="question">Question text</h2>
+      <br>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Question</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Question</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Question</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Question</label>
+        </li>
+      </ul>
+    </div>
+    <button id="submit">Próxima questão</button>
+  </div>
+  <script src="./js/quiz.js"></script>
+
+
+  <footer class="rodape">
+    <div class="linha"></div>
+    <div class="ajuste-rodape">
+      <span class="cont">
+        <p>&copy; Copyright 2022 | WarLine - Todos os direitos reservados.</p>
+        <p class="dir"></p>
+        <br>
+      </span>
+      <span class="politica">
+        <a href="./politica-privacidade.html">Política de Privacidade</a>
+        <a href="./termos-de-uso.html">Termos de Uso</a>
+      </span>
+    </div>
+
+  </footer>
+
 </body>
+
 </html>
