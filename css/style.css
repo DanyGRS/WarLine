@@ -240,6 +240,15 @@ h1 {
     transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
 }
 
+.conteudo{
+    display: flex;
+    padding:1%;
+}
+.conteudo div{
+    padding:12px;
+}
+
+
 .modal-content {
     background-color: var(--cor4);
     padding: 16px 24px;
