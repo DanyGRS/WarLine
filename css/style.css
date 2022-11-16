@@ -265,12 +265,6 @@ h1 {
     width:100%;
 }
 
-.curve svg{
-    border-radius: 0.5rem;
-    display: flex;
-    width:100%;
-}
-
 .modal-content h1 {
     text-align: center;
 
