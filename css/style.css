@@ -248,22 +248,31 @@ h1 {
     padding:12px;
 }
 
+.cos{
+    background-color: var(--cor4);
+    width: 80%;
+    height: auto;
+    border-radius: 0.5rem;
+}
 
 .modal-content {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
+}
+
+.curve svg{
     border-radius: 0.5rem;
+    display: flex;
 }
 
 .modal-content h1 {
     text-align: center;
+
 }
 
 .paragrafo-p {
     font-size: 13px;
     text-align: center;
+
 }
 
 /*.modal-content div {
@@ -308,11 +317,7 @@ h1 {
 }
 
 .modal-contentDois {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentDois h1 {
@@ -343,11 +348,7 @@ h1 {
 }
 
 .modal-contentTres {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentTres h1 {
@@ -378,11 +379,7 @@ h1 {
 }
 
 .modal-contentQuatro {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentQuatro h1 {
@@ -413,11 +410,7 @@ h1 {
 }
 
 .modal-contentCinco {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentCinco h1 {
@@ -448,11 +441,7 @@ h1 {
 }
 
 .modal-contentSeis {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentSeis h1 {
@@ -483,11 +472,7 @@ h1 {
 }
 
 .modal-contentSete {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentSete h1 {
@@ -518,11 +503,7 @@ h1 {
 }
 
 .modal-contentOito {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentOito h1 {
@@ -553,11 +534,7 @@ h1 {
 }
 
 .modal-contentNove {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentNove h1 {
@@ -588,11 +565,7 @@ h1 {
 }
 
 .modal-contentDez {
-    background-color: var(--cor4);
     padding: 16px 24px;
-    width: 80%;
-    height: 60%;
-    border-radius: 0.5rem;
 }
 
 .modal-contentDez h1 {
@@ -1051,7 +1024,7 @@ h1 {
 }
 
 .conteudo-tuto {
-    color: var(--cor2);
+    color: var(--cor5);
 
 }
 
