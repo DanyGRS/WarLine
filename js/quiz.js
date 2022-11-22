@@ -13,8 +13,8 @@ const quizData = [
         question: "Quanto tempo durou a Segunda Guerra Mundial?",
         a: "Ela teve a duração de 5 anos, sendo de 1917 até 1922.",
         b: "A guerra ocorreu entre 1939 e 1945.",
-        c: "Aconteceu somente em 1929",
-        d: "Ocorreu em 1964 e foi até 1968",
+        c: "Aconteceu somente em 1929.",
+        d: "Ocorreu em 1964 e foi até 1968,",
         correct: "b",
     },
     {
@@ -29,10 +29,10 @@ const quizData = [
     {
         numberQuestion: "4/15",
         question: "A Segunda Guerra Sino-Japonesa foi do Japão contra:",
-        a: "Estados Unidos",
-        b: "China",
-        c: "Coréia do Norte",
-        d: "Rússia",
+        a: "Estados Unidos.",
+        b: "China.",
+        c: "Coréia do Norte.",
+        d: "Rússia.",
         correct: "b",
     },
     {
@@ -197,6 +197,7 @@ submitBtn.addEventListener('click', () => {
                 <h2>Você acertou um total de ${score}/${quizData.length} questões</h2>
  
                 <button class="refazer" onclick="location.reload()">Fazer novamente</button>
+                <button class="gabarito" onclick="location.href='./img/gabarito.pdf'">Gabarito</button>
             `
         }
     }

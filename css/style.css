@@ -1160,6 +1160,19 @@ ul li label {
     font-family: inherit;
 }
 
+.gabarito{
+    background-color: var(--corTest);
+    border: none;
+    margin-top: 5px;
+    padding: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    color: var(--cor4);
+    font-family: inherit;
+}
+
 /*ABA POLÍTICA DE PRIVACIDADE*/
 .containerPolitica{
     width: 100%;
