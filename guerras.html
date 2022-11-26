@@ -10,20 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Linha do Tempo</title>
 </head>
-<body onload="showTuto()">
-    <header class="menu" style="z-index: 0;">
+<body onload="showTuto()" >
+    <header class="menu" id="menu" style="z-index: 0;">
         <div class="logo">
             <a href="./index.html"><img src="./img/logo-WarLine.png" height="95" /></a>
         </div>
-        <div class="drop">
+        <div class="drop" >
             <button onclick="myFunction()" class="dropbtn">Menu ☰</button>
-            <div id="myDropdown" class="dropdown-content">
-                
-                <ul>
+            <div id="myDropdown" class="dropdown-content" >
+                <ul >
                     <li><abbr title="Você está Aqui!"><a class="veaqui" style="color: #A6874E;" >Guerras</a></abbr></li>
-                    <li><a href="./quiz.html">Quiz</a></li>
-                    <li><a href="./contato.html">Contato</a></li>
-                    <li><a href="./sobre-nos.html">Quem somos</a></li>
+                    <li><a href="./quiz.html" >Quiz</a></li>
+                    <li><a href="./contato.html" >Contato</a></li>
+                    <li><a href="./sobre-nos.html" >Quem somos</a></li>
                 </ul>
             </div>
         </div>
@@ -537,6 +536,18 @@
         </div>
         
     </footer>
+    <script>
+        let largura = window.innerWidth;
+        let menu = document.getElementById("menu");
+
+        if (largura < 960){
+            menu.style.zIndex = '1';
+        }
+        else{
+            menu.style.zIndex = '0';
+        }
+        
+    </script>
     
 </body>
 </html>

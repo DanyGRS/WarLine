@@ -959,6 +959,7 @@ h1 {
 /* FIM efeito */
 
 .paragrafo {
+    max-width: 1100px;
     text-align: justify;
     letter-spacing: 0.8px;
 }
@@ -988,6 +989,7 @@ h1 {
 
 
 .tabela {
+    max-width: 1100px;
     color: var(--cor4);
     font-size: 17px;
     width: 55%;
@@ -1275,6 +1277,10 @@ ul li label {
 .containerTitles h2{
     font-weight: normal;
 }
+
+.cardContent a{
+    text-decoration: none;
+}
 .component-systemTabs{
     width: 100%;
     display: flex;
@@ -1368,9 +1374,9 @@ ul li label {
     font-weight: 900;
     cursor: pointer;
     outline: none;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
     opacity: 0;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
 }
 .component-systemTabs .cards .card .cardContent button:hover{
     -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0, .3);
